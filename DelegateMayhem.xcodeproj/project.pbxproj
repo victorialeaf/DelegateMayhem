@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		5C0E9CDB1F96EDD200FDA77D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E9CDA1F96EDD200FDA77D /* AppDelegate.swift */; };
-		5C0E9CDD1F96EDD200FDA77D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E9CDC1F96EDD200FDA77D /* ViewController.swift */; };
+		5C0E9CDD1F96EDD200FDA77D /* ReceivingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E9CDC1F96EDD200FDA77D /* ReceivingVC.swift */; };
 		5C0E9CE01F96EDD200FDA77D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C0E9CDE1F96EDD200FDA77D /* Main.storyboard */; };
 		5C0E9CE21F96EDD200FDA77D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C0E9CE11F96EDD200FDA77D /* Assets.xcassets */; };
 		5C0E9CE51F96EDD200FDA77D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C0E9CE31F96EDD200FDA77D /* LaunchScreen.storyboard */; };
+		5C0E9CED1F96EEEE00FDA77D /* SendingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E9CEC1F96EEEE00FDA77D /* SendingVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5C0E9CD71F96EDD200FDA77D /* DelegateMayhem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DelegateMayhem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C0E9CDA1F96EDD200FDA77D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5C0E9CDC1F96EDD200FDA77D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C0E9CDC1F96EDD200FDA77D /* ReceivingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceivingVC.swift; sourceTree = "<group>"; };
 		5C0E9CDF1F96EDD200FDA77D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C0E9CE11F96EDD200FDA77D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C0E9CE41F96EDD200FDA77D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C0E9CE61F96EDD200FDA77D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C0E9CEC1F96EEEE00FDA77D /* SendingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendingVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				5C0E9CDA1F96EDD200FDA77D /* AppDelegate.swift */,
-				5C0E9CDC1F96EDD200FDA77D /* ViewController.swift */,
+				5C0E9CDC1F96EDD200FDA77D /* ReceivingVC.swift */,
+				5C0E9CEC1F96EEEE00FDA77D /* SendingVC.swift */,
 				5C0E9CDE1F96EDD200FDA77D /* Main.storyboard */,
 				5C0E9CE11F96EDD200FDA77D /* Assets.xcassets */,
 				5C0E9CE31F96EDD200FDA77D /* LaunchScreen.storyboard */,
@@ -91,7 +94,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Victoria Leaf";
 				TargetAttributes = {
 					5C0E9CD61F96EDD200FDA77D = {
@@ -136,7 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C0E9CDD1F96EDD200FDA77D /* ViewController.swift in Sources */,
+				5C0E9CDD1F96EDD200FDA77D /* ReceivingVC.swift in Sources */,
+				5C0E9CED1F96EEEE00FDA77D /* SendingVC.swift in Sources */,
 				5C0E9CDB1F96EDD200FDA77D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -173,7 +177,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -181,7 +187,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -224,7 +234,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -232,7 +244,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -301,6 +317,7 @@
 				5C0E9CEB1F96EDD200FDA77D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
