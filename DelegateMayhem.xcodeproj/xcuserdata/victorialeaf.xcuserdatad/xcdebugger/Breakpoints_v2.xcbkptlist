@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DelegateMayhem/AppDelegate.swift"
+            timestampString = "529994451.52987"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DelegateMayhem.AppDelegate.__deallocating_deinit"
+                  moduleName = "DelegateMayhem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/victorialeaf/Documents/Swift/New/DelegateMayhem/DelegateMayhem/AppDelegate.swift"
+                  timestampString = "529993036.070138"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DelegateMayhem.AppDelegate.__allocating_init() -&gt; DelegateMayhem.AppDelegate"
+                  moduleName = "DelegateMayhem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/victorialeaf/Documents/Swift/New/DelegateMayhem/DelegateMayhem/AppDelegate.swift"
+                  timestampString = "529993036.076307"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DelegateMayhem.AppDelegate.init() -&gt; DelegateMayhem.AppDelegate"
+                  moduleName = "DelegateMayhem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/victorialeaf/Documents/Swift/New/DelegateMayhem/DelegateMayhem/AppDelegate.swift"
+                  timestampString = "529993036.078966"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "DelegateMayhem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/victorialeaf/Documents/Swift/New/DelegateMayhem/DelegateMayhem/AppDelegate.swift"
+                  timestampString = "529993036.080747"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SwiftErrorBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
