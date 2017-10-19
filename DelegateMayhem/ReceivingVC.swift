@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, DataSentDelegate {
+class ReceivingVC: UIViewController, DataSentDelegate {
 
     @IBOutlet weak var receivingLabel: UILabel!
     
